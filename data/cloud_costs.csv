@@ -1,0 +1,70 @@
+timestamp,service,region,cost
+2025-04-14,Amazon EC2 Container Registry (ECR),us-east-1,0.0097145928
+2025-04-14,EC2 - Other,ap-south-1,1.22096e-05
+2025-04-14,Amazon Elastic Compute Cloud - Compute,ap-south-1,0.0127168944
+2025-04-14,Amazon Simple Storage Service,ap-south-1,0.0
+2025-04-14,Amazon Simple Storage Service,global,0.0
+2025-04-14,Amazon Simple Storage Service,us-east-1,0.0
+2025-04-14,Amazon Virtual Private Cloud,ap-south-1,0.0
+2025-04-14,AmazonCloudWatch,ap-south-1,0.0
+2025-04-14,AmazonCloudWatch,us-east-1,0.0
+2025-04-15,Amazon EC2 Container Registry (ECR),us-east-1,0.0097145928
+2025-04-15,EC2 - Other,ap-south-1,1.8355e-06
+2025-04-15,Amazon Elastic Compute Cloud - Compute,ap-south-1,0.0
+2025-04-15,Amazon Simple Storage Service,ap-south-1,0.0
+2025-04-15,Amazon Simple Storage Service,global,0.0
+2025-04-15,Amazon Simple Storage Service,us-east-1,0.0
+2025-04-15,Amazon Virtual Private Cloud,ap-south-1,0.0
+2025-04-15,AmazonCloudWatch,ap-south-1,0.0
+2025-04-15,AmazonCloudWatch,us-east-1,0.0
+2025-04-16,Amazon EC2 Container Registry (ECR),us-east-1,0.0097145928
+2025-04-16,EC2 - Other,ap-south-1,1.5434e-06
+2025-04-16,Amazon Elastic Compute Cloud - Compute,ap-south-1,0.0
+2025-04-16,Amazon Simple Storage Service,ap-south-1,0.0
+2025-04-16,Amazon Simple Storage Service,global,0.0
+2025-04-16,Amazon Simple Storage Service,us-east-1,0.0
+2025-04-16,Amazon Virtual Private Cloud,ap-south-1,0.0
+2025-04-16,AmazonCloudWatch,ap-south-1,0.0
+2025-04-16,AmazonCloudWatch,us-east-1,0.0
+2025-04-17,Amazon EC2 Container Registry (ECR),us-east-1,0.0097145928
+2025-04-17,EC2 - Other,ap-south-1,9.3759e-06
+2025-04-17,EC2 - Other,us-west-2,3.1006e-06
+2025-04-17,Amazon Elastic Compute Cloud - Compute,ap-south-1,0.0213142112
+2025-04-17,Amazon Elastic Compute Cloud - Compute,us-west-2,0.0193462016
+2025-04-17,Amazon Simple Storage Service,ap-south-1,0.0
+2025-04-17,Amazon Simple Storage Service,global,0.0
+2025-04-17,Amazon Simple Storage Service,us-east-1,0.0
+2025-04-17,Amazon Virtual Private Cloud,ap-south-1,0.0
+2025-04-17,Amazon Virtual Private Cloud,us-west-2,0.0
+2025-04-17,AmazonCloudWatch,ap-south-1,0.0
+2025-04-17,AmazonCloudWatch,us-east-1,0.0
+2025-04-18,Amazon EC2 Container Registry (ECR),us-east-1,0.0097145928
+2025-04-18,EC2 - Other,ap-south-1,1.3877e-06
+2025-04-18,Amazon Elastic Compute Cloud - Compute,ap-south-1,0.0
+2025-04-18,Amazon Simple Storage Service,ap-south-1,0.0
+2025-04-18,Amazon Simple Storage Service,global,0.0
+2025-04-18,Amazon Simple Storage Service,us-east-1,0.0
+2025-04-18,Amazon Virtual Private Cloud,ap-south-1,0.0
+2025-04-18,AmazonCloudWatch,ap-south-1,0.0
+2025-04-18,AmazonCloudWatch,us-east-1,0.0
+2025-04-19,Amazon EC2 Container Registry (ECR),us-east-1,0.0097145928
+2025-04-19,EC2 - Other,ap-south-1,1.2096e-06
+2025-04-19,Amazon Elastic Compute Cloud - Compute,ap-south-1,0.0
+2025-04-19,Amazon Simple Storage Service,ap-south-1,0.0
+2025-04-19,Amazon Simple Storage Service,global,0.0
+2025-04-19,Amazon Simple Storage Service,us-east-1,0.0
+2025-04-19,Amazon Virtual Private Cloud,ap-south-1,0.0
+2025-04-19,AmazonCloudWatch,ap-south-1,0.0
+2025-04-19,AmazonCloudWatch,us-east-1,0.0
+2025-04-20,Amazon EC2 Container Registry (ECR),us-east-1,0.0097145928
+2025-04-20,EC2 - Other,ap-south-1,5.456e-07
+2025-04-20,EC2 - Other,us-west-2,7.32e-08
+2025-04-20,Amazon Elastic Compute Cloud - Compute,ap-south-1,0.0
+2025-04-20,Amazon Elastic Compute Cloud - Compute,us-west-2,0.0
+2025-04-20,Amazon Simple Storage Service,ap-south-1,0.0
+2025-04-20,Amazon Simple Storage Service,global,0.0
+2025-04-20,Amazon Simple Storage Service,us-east-1,0.0
+2025-04-20,Amazon Virtual Private Cloud,ap-south-1,0.0
+2025-04-20,Amazon Virtual Private Cloud,us-west-2,0.0
+2025-04-20,AmazonCloudWatch,ap-south-1,0.0
+2025-04-20,AmazonCloudWatch,us-east-1,0.0

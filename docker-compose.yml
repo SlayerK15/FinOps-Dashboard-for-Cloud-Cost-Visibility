@@ -2,12 +2,15 @@ services:
   collector:
     build: ./collector
     volumes:
-      - ./data/sqlite:/app/data
+      - ./data:/app/data
     environment:
-      - SQLITE_DB_PATH=/app/data/cloud_costs.db
+      - DATA_DIR=/app/data
       - AWS_ACCESS_KEY_ID=
       - AWS_SECRET_ACCESS_KEY=
-      - AWS_REGION=ap-south-1 
+      - AWS_REGION=ap-south-1
+      - DAILY_BUDGET=0.33
+      - COLLECTOR_INTERVAL=3600
+    restart: on-failure
 
   grafana:
     image: grafana/grafana:latest
@@ -17,14 +20,14 @@ services:
       - ./grafana/provisioning:/etc/grafana/provisioning
       - ./grafana/dashboards:/var/lib/grafana/dashboards
       - ./data/grafana:/var/lib/grafana
-      - ./data/sqlite:/app/data
+      - ./data:/app/data
+      - ./grafana/custom.ini:/etc/grafana/custom.ini
+  
     environment:
       - GF_SECURITY_ADMIN_USER=admin
       - GF_SECURITY_ADMIN_PASSWORD=admin
       - GF_USERS_ALLOW_SIGN_UP=false
+      - GF_INSTALL_PLUGINS=frser-sqlite-datasource,marcusolsson-csv-datasource
+      - GF_PATHS_CONFIG=/etc/grafana/custom.ini
     depends_on:
       - collector
-
-volumes:
-  grafana_data:
-  sqlite_data: 
