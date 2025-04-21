@@ -1,0 +1,11 @@
+apiVersion: 1
+
+datasources:
+  - name: CloudCosts
+    type: sqlite
+    access: proxy
+    database: /app/data/cloud_costs.db
+    jsonData:
+      storage: file
+      path: /app/data/cloud_costs.db
+    editable: false 

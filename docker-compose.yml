@@ -1,0 +1,30 @@
+services:
+  collector:
+    build: ./collector
+    volumes:
+      - ./data/sqlite:/app/data
+    environment:
+      - SQLITE_DB_PATH=/app/data/cloud_costs.db
+      - AWS_ACCESS_KEY_ID=
+      - AWS_SECRET_ACCESS_KEY=
+      - AWS_REGION=ap-south-1 
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - ./grafana/dashboards:/var/lib/grafana/dashboards
+      - ./data/grafana:/var/lib/grafana
+      - ./data/sqlite:/app/data
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    depends_on:
+      - collector
+
+volumes:
+  grafana_data:
+  sqlite_data: 
